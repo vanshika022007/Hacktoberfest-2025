@@ -5,7 +5,7 @@ Copy the markdown code below and paste it into the file.
 Replace all placeholders like [Project Name] and [e.g., ...] with your project's specific details.
 ```
 
-# [Project Name]
+# Python Scripts
 
 ![Hacktoberfest 2025](https://img.shields.io/badge/Hacktoberfest-2025-orange.svg)
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
