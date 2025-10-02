@@ -76,3 +76,24 @@ We welcome contributions of all kinds—from improving documentation to adding n
 ## 📂 Project Structure
 
 Here is an overview of the project's directory structure to help you navigate the codebase.
+```
+.
+├── FOLDER_NAME_1/         # Contains [description of folder contents]
+│   └── your_code.extension
+├── FOLDER_NAME_2/         # Contains [description of folder contents]
+├── .gitignore
+├── CONTRIBUTING.md
+├── LICENSE
+├── README.md
+└── WORKFLOW.md
+```
+
+
+## 📜 License
+
+This project is licensed under the MIT License. See the **[LICENSE](LICENSE)** file for details.
+*(Note: You should create a `LICENSE` file in your repository. The MIT License is a great choice for open-source projects.)*
+
+## 📫 Contact
+
+If you have questions or need help, feel free to open an issue and tag the maintainer **@milansinghal2004**.
