@@ -125,6 +125,46 @@ git commit -m "docs: improve README and add usage examples"
 
 ## ✨ Contributors
 
+<table>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/milansinghal2004>
+            <img src=https://avatars.githubusercontent.com/u/118826647?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=MILAN SINGHAL/>
+            <br />
+            <sub style="font-size:14px"><b>MILAN SINGHAL</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/992manav>
+            <img src=https://avatars.githubusercontent.com/u/170462638?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Manav Desai/>
+            <br />
+            <sub style="font-size:14px"><b>Manav Desai</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/csr76>
+            <img src=https://avatars.githubusercontent.com/u/138115920?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=csr76/>
+            <br />
+            <sub style="font-size:14px"><b>csr76</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/jalaj-25>
+            <img src=https://avatars.githubusercontent.com/u/115914764?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Jalaj Singhal/>
+            <br />
+            <sub style="font-size:14px"><b>Jalaj Singhal</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/devanshsonii>
+            <img src=https://avatars.githubusercontent.com/u/139559687?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=runn3r/>
+            <br />
+            <sub style="font-size:14px"><b>runn3r</b></sub>
+        </a>
+    </td>
+</tr>
+</table>
+
 Thanks to these wonderful people for their contributions!
 
 <table>
