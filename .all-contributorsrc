@@ -7,5 +7,18 @@
   ],
   "imageSize": 100,
   "commit": false,
-  "contributors": []
+  "contributors": [
+    {
+      "login": "jalaj-25",
+      "name": "Jalaj Singhal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/115914764?v=4",
+      "profile": "https://github.com/jalaj-25",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributorsPerLine": 7
 }
