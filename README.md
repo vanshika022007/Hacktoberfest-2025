@@ -111,7 +111,7 @@ git commit -m "docs: improve README and add usage examples"
 
 4. Push your branch and open a Pull Request.
 
-## 🤖 CI/CD Automation
+## CI/CD Automation
 
 This repository uses [GitHub Actions](https://github.com/features/actions) to automate code quality checks and ensure consistency. All automations are defined in the `.github/workflows` directory.
 
