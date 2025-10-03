@@ -27,6 +27,7 @@ The repository currently contains the following scripts:
 - `PDF Merger` - Merge multiple PDFs into one.
 - `Bulk Image Resizer` - Resize all images to a fixed width.
 - `CSV to Excel Converter` - Convert all CSV files in a folder to Excel.
+- `Emotion Detection` - Detect emotions from webcam feed using deep learning.
 This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 
 ## Getting Started
@@ -93,6 +94,19 @@ print(f"Generated password: {generate_password(length=16, use_symbols=False)}")
 ```
 
 Both scripts include detailed docstrings and inline comments to guide usage.
+
+5. Emotion Detection
+- make sure you are running it on Python 3.9 or above till 3.11.5
+- make sure you have keras, tensorflow, opencv-python, numpy installed. You can install them using:
+```bash
+pip install keras tensorflow opencv-python numpy
+```
+in terminal.
+- run the script using:
+```bash
+python Scripts/Emotion_Detection/EmotionDetection.py
+```
+in terminal
 
 ## Contributing
 
@@ -185,6 +199,13 @@ If the linter finds any critical errors, the workflow will fail. A "pass" or "fa
             <img src=https://avatars.githubusercontent.com/u/139559687?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=runn3r/>
             <br />
             <sub style="font-size:14px"><b>runn3r</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Anshul-Bartwal>
+            <img src=https://avatars.githubusercontent.com/u/223218288?s=400&v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Anshul-Bartwal/>
+            <br />
+            <sub style="font-size:14px"><b>Anshul Bartwal</b></sub>
         </a>
     </td>
 </tr>
