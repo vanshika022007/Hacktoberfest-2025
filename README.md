@@ -111,6 +111,20 @@ git commit -m "docs: improve README and add usage examples"
 
 4. Push your branch and open a Pull Request.
 
+## 🤖 CI/CD Automation
+
+This repository uses [GitHub Actions](https://github.com/features/actions) to automate code quality checks and ensure consistency. All automations are defined in the `.github/workflows` directory.
+
+### Python Linter
+
+We have a workflow that automatically runs the `flake8` linter on every pull request. This process checks the Python code for common programming errors, style issues, and complexity.
+
+1.  When a pull request is opened, the workflow is triggered automatically.
+2.  It installs Python and the project's dependencies.
+3.  It runs `flake8` to analyze the code.
+
+If the linter finds any critical errors, the workflow will fail. A "pass" or "fail" status will be reported on the pull request page. All checks must pass before a pull request can be merged. This ensures that all contributions adhere to our project's coding standards.
+
 ## Project Structure
 
 .
