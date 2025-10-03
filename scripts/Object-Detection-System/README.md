@@ -24,6 +24,5 @@ and place it in: scripts/Object-Detection-System/
 
 ## To run the app
 Use:
-```
+```bash
 python scripts/Object-Detection-System/ObjectDetectionApp.py
-```
