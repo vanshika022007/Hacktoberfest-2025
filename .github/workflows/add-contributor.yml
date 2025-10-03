@@ -1,0 +1,30 @@
+name: Add Contributor on Merge
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  add-contributor:
+    # This job only runs if the PR was merged
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          # We need the full history to generate the contributor list
+          fetch-depth: 0
+
+      - name: Add contributor to list
+        uses: all-contributors/actions/add@v1
+        with:
+          # The path to your .all-contributorsrc file
+          path: .all-contributorsrc
+          
+          # The token to commit with, it's provided automatically
+          bot-token: ${{ secrets.GITHUB_TOKEN }}
+          
+          # Get the PR number from the event that triggered the workflow
+          pull-request-number: ${{ github.event.pull_request.number }}
