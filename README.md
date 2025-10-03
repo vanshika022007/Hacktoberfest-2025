@@ -23,6 +23,7 @@ The repository currently contains the following scripts:
 - `file_renamer.py` — Rename all files in a folder with a specific prefix and optional extension filter.
 - `image_compressor.py` — Compress images individually or in bulk using Pillow.
 - `factorial_calculator.py` — Calculate the factorial of a non-negative integer.
+- `password_generator.py` — Generate strong, random passwords with customizable criteria.
   This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 
 ## Getting Started
@@ -79,6 +80,13 @@ compress_folder("images","compressed_images",quality=60)
 from Scripts.factorial_calculator import factorial
 print(f"Factorial of 5: {factorial(5)}")
 print(f"Factorial of 0: {factorial(0)}")
+```
+
+4. Password Generator
+
+```bash
+from Scripts.password_generator import generate_password
+print(f"Generated password: {generate_password(length=16, use_symbols=False)}")
 ```
 
 Both scripts include detailed docstrings and inline comments to guide usage.
