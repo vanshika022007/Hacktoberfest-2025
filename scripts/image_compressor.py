@@ -4,10 +4,14 @@ import os
 def compress_image(input_path, output_path, quality=70):
     """
     Compress a single image and save it.
+
+    Args:
+        input_path (str): Path to the original image.
+        output_path (str): Path to save the compressed image.
+        quality (int, optional): Compression quality (1-95). Lower means smaller file. Defaults to 70.
     
-    :param input_path: Path to the original image
-    :param output_path: Path to save compressed image
-    :param quality: Compression quality (1-95), lower means smaller file
+    Example:
+        >>> compress_image("input.jpg", "compressed.jpg", quality=60)
     """
     try:
         with Image.open(input_path) as img:
@@ -18,11 +22,15 @@ def compress_image(input_path, output_path, quality=70):
 
 def compress_folder(folder_path, output_folder, quality=70):
     """
-    Compress all images in a folder.
+    Compress all images in a folder and save them to the specified output folder.
+
+    Args:
+        folder_path (str): Path to the input folder containing images.
+        output_folder (str): Path to save compressed images.
+        quality (int, optional): Compression quality (1-95). Defaults to 70.
     
-    :param folder_path: Path to input folder
-    :param output_folder: Path to save compressed images
-    :param quality: Compression quality (1-95)
+    Example:
+        >>> compress_folder("images", "compressed_images", quality=60)
     """
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
@@ -31,13 +39,14 @@ def compress_folder(folder_path, output_folder, quality=70):
         input_file = os.path.join(folder_path, filename)
         output_file = os.path.join(output_folder, filename)
 
+        # Only process files that are images (JPEG or PNG)
         if os.path.isfile(input_file):
-            # Only process common image formats
             if filename.lower().endswith(('.jpg', '.jpeg', '.png')):
                 compress_image(input_file, output_file, quality)
 
 if __name__ == "__main__":
-    # Example usage:
+   # Example usage:
+
     # Compress a single image
     # compress_image("input.jpg", "compressed.jpg", quality=70)
     
