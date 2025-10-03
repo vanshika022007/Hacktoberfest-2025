@@ -25,6 +25,7 @@ The repository currently contains the following scripts:
 - `factorial_calculator.py` — Calculate the factorial of a non-negative integer.
 - `password_generator.py` — Generate strong, random passwords with customizable criteria.
   This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
+- `Folder Cleaner`- Delete files older than n days.
 
 ## Getting Started
 
