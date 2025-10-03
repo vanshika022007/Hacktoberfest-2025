@@ -96,8 +96,17 @@ print(f"Generated password: {generate_password(length=16, use_symbols=False)}")
 Both scripts include detailed docstrings and inline comments to guide usage.
 
 5. Emotion Detection
-
-- Just run the emotionDetection.ipynb notebook with kernel base(python 3.11.5) and install the required libraries mentioned in the notebook.
+- make sure you are running it on Python 3.9 or above till 3.11.5
+- make sure you have keras, tensorflow, opencv-python, numpy installed. You can install them using:
+```bash
+pip install keras tensorflow opencv-python numpy
+```
+in terminal.
+- run the script using:
+```bash
+python Scripts/Emotion_Detection/EmotionDetection.py
+```
+in terminal
 
 ## Contributing
 
