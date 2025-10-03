@@ -12,8 +12,10 @@ This repository contains Python scripts designed to automate common tasks. It is
 3. [Usage](#usage)
 4. [Contributing](#contributing)
 5. [Project Structure](#project-structure)
-6. [License](#license)
-7. [Contact](#contact)
+6. [Contributors](#contributors)
+7. [License](#license)
+8. [Contact](#contact)
+
 
 ## About
 
@@ -89,8 +91,13 @@ git commit -m "docs: improve README and add usage examples"
 ├── README.md                # This file
 └── WORKFLOW.md              # Git and GitHub workflow guide
 
+## ✨Contributors
+Thanks to these wonderful people for thier contributions!
+- **Milan** - [Github](https://github.com/milansinghal2004)
+
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Contact
 For questions or support, open an issue and tag the maintainer **@milansinghal2004**.
+
