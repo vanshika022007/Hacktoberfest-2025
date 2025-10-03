@@ -15,14 +15,16 @@ You can install them via pip:
 
 ```bash
 pip install opencv-python numpy Pillow
+```
 
 ## Yolo Weights
 
 The yolov3.weights file is too large for GitHub.
-Download it from YOLO official site
-and place it in: scripts/Object-Detection-System/
+Download it from YOLO official site [here](https://www.kaggle.com/datasets/shivam316/yolov3-weights)
+and place it in: ` scripts/Object-Detection-System/ `
 
 ## To run the app
 Use:
 ```bash
 python scripts/Object-Detection-System/ObjectDetectionApp.py
+```
