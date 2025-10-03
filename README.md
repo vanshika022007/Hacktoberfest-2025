@@ -142,6 +142,13 @@ git commit -m "docs: improve README and add usage examples"
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/strikkerJalaj-25>
+            <img src=https://avatars.githubusercontent.com/u/205951485?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=strikkerJalaj-25/>
+            <br />
+            <sub style="font-size:14px"><b>strikkerJalaj-25</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/csr76>
             <img src=https://avatars.githubusercontent.com/u/138115920?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=csr76/>
             <br />
