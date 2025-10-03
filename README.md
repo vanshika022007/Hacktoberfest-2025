@@ -91,12 +91,15 @@ git commit -m "docs: improve README and add usage examples"
 ├── README.md                # This file
 └── WORKFLOW.md              # Git and GitHub workflow guide
 
-## ✨Contributors
-Thanks to these wonderful people for thier contributions!
-- **Milan** - [Github](https://github.com/milansinghal2004)
+## ✨ Contributors
 
-## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+Thanks to these wonderful people for their contributions!
+
+<table>
+  <tr>
+    </tr>
+</table>
+
 
 ## Contact
 For questions or support, open an issue and tag the maintainer **@milansinghal2004**.
