@@ -13,8 +13,7 @@ This repository contains Python scripts designed to automate common tasks. It is
 4. [Contributing](#contributing)
 5. [Project Structure](#project-structure)
 6. [Contributors](#contributors)
-7. [License](#license)
-8. [Contact](#contact)
+7. [Contact](#contact)
 
 ## About
 
@@ -24,11 +23,11 @@ The repository currently contains the following scripts:
 - `image_compressor.py` — Compress images individually or in bulk using Pillow.
 - `factorial_calculator.py` — Calculate the factorial of a non-negative integer.
 - `password_generator.py` — Generate strong, random passwords with customizable criteria.
-  This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 - `Folder Cleaner`- Delete files older than n days.
 - `PDF Merger` - Merge multiple PDFs into one.
 - `Bulk Image Resizer` - Resize all images to a fixed width.
 - `CSV to Excel Converter` - Convert all CSV files in a folder to Excel.
+This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 
 ## Getting Started
 
@@ -130,7 +129,7 @@ We have a workflow that automatically runs the `flake8` linter on every pull req
 If the linter finds any critical errors, the workflow will fail. A "pass" or "fail" status will be reported on the pull request page. All checks must pass before a pull request can be merged. This ensures that all contributions adhere to our project's coding standards.
 
 ## Project Structure
-
+```
 .
 ├── Scripts/ # Contains Python scripts
 │ ├── file_renamer.py
@@ -140,8 +139,9 @@ If the linter finds any critical errors, the workflow will fail. A "pass" or "fa
 ├── LICENSE # MIT License file
 ├── README.md # This file
 └── WORKFLOW.md # Git and GitHub workflow guide
+```
 
-## ✨ Contributors
+## Contributors
 
 <table>
 <tr>
