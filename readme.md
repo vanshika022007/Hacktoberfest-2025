@@ -1,99 +1,103 @@
-## Instructions:
-```
-Create or open the README.md file in the root of your repository.
-Copy the markdown code below and paste it into the file.
-Replace all placeholders like [Project Name] and [e.g., ...] with your project's specific details.
-```
-
-# Python Scripts
+# Python Scripts Collection
 
 ![Hacktoberfest 2025](https://img.shields.io/badge/Hacktoberfest-2025-orange.svg)
 ![GitHub License](https://img.shields.io/badge/license-MIT-blue.svg)
-![GitHub stars](https://img.shields.io/github/stars/milansinghal2004/[PROJECT-NAME]?style=social)
-![GitHub forks](https://img.shields.io/github/forks/milansinghal2004/[PROJECT-NAME]?style=social)
-![GitHub issues](https://img.shields.io/github/issues/milansinghal2004/[PROJECT-NAME])
 
-A brief one-sentence description of what your project is about. For example:
-*This repository is a collection of awesome Python scripts for automating daily tasks, open for contributions during Hacktoberfest 2025!*
+This repository contains Python scripts designed to automate common tasks. It is beginner-friendly and open for contributions during Hacktoberfest 2025.
 
----
+## Table of Contents
 
-## 🎃 Join Us for Hacktoberfest 2025!
+1. [About](#about)
+2. [Getting Started](#getting-started)
+3. [Usage](#usage)
+4. [Contributing](#contributing)
+5. [Project Structure](#project-structure)
+6. [Contributors](#contributors)
+7. [License](#license)
+8. [Contact](#contact)
 
-This repository is actively participating in **Hacktoberfest 2025**. We are thrilled to welcome contributors of all skill levels, from first-timers to seasoned open-source veterans.
 
-### How to Participate:
-1.  **Find an Issue**: Check out our **[Issues Page](https://github.com/milansinghal2004/[PROJECT-NAME]/issues)**. Look for issues with the `hacktoberfest` or `good first issue` labels.
-2.  **Read the Guidelines**: Before you start, please read our **[Contributing Guidelines](CONTRIBUTING.md)**.
-3.  **Submit a Pull Request**: Create a high-quality Pull Request to address the issue. Spammy or low-effort PRs will be marked as invalid.
+## About
 
-We look forward to your amazing contributions!
+The repository currently contains the following scripts:
 
----
+- `file_renamer.py` — Rename all files in a folder with a specific prefix and optional extension filter.
+- `image_compressor.py` — Compress images individually or in bulk using Pillow.
 
-## 🚀 Getting Started
+This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 
-Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
+## Getting Started
 
 ### Prerequisites
 
-You will need the following tools installed on your computer:
+Before running the scripts, ensure you have the following installed:
+
+- Python 3.9+
 - Git
-- [e.g., Python 3.9+, Node.js v16+, etc.]
+- Optional: Node.js (for additional scripts or integration)
 
 ### Installation
 
-1.  **Fork the repository** by clicking the "Fork" button on the top right.
-
-2.  **Clone your forked repository** to your local machine:
-    ```bash
-    git clone [https://github.com/](https://github.com/)[YOUR-USERNAME]/[PROJECT-NAME].git
-    ```
-
-3.  **Navigate to the project directory**:
-    ```bash
-    cd [PROJECT-NAME]
-    ```
-
-4.  **Install the necessary dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-    ```bash
-    npm install
-    ```
-
----
-
-## 🤝 How to Contribute
-
-We welcome contributions of all kinds—from improving documentation to adding new features. To get started, please review our contribution guides:
-
--   **[CONTRIBUTION.md](contribution.md)**: Our main guide covering the rules and best practices.
--   **[WORKFLOW.md](WORKFLOW.md)**: A detailed, step-by-step guide on our Git and GitHub workflow.
-
-## 📂 Project Structure
-
-Here is an overview of the project's directory structure to help you navigate the codebase.
+1. **Fork the repository** on GitHub.
+2. **Clone your fork** to your local machine:
+```bash
+git clone https://github.com/YOUR-USERNAME/Hacktoberfest-2025.git
+cd Hacktoberfest-2025
 ```
+3. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+If using Node.js scripts:
+```bash
+npm install
+```
+
+## Usage
+1. File Renamer
+```bash
+from Scripts.file_renamer import rename_files
+rename_files("documents", prefix="report", extension=".txt")
+```
+2. Image Compressor
+```bash
+from Scripts.image_compressor import compress_folder
+compress_folder("images","compressed_images",quality=60)
+```
+Both scripts include detailed docstrings and inline comments to guide usage.
+
+## Contributing
+We welcome contributions of all kinds from improving documentation to adding new scripts.
+1. Review the [CONTRIBUTION.md] 
+ guide.
+2. Create a new branch for your changes:
+```bash
+git checkout -b feat/your-feature-name
+```
+3. Commit your changes with a descriptive message:
+```bash
+git commit -m "docs: improve README and add usage examples"
+```
+4. Push your branch and open a Pull Request.
+
+## Project Structure
 .
-├── FOLDER_NAME_1/         # Contains [description of folder contents]
-│   └── your_code.extension
-├── FOLDER_NAME_2/         # Contains [description of folder contents]
-├── .gitignore
-├── CONTRIBUTING.md
-├── LICENSE
-├── README.md
-└── WORKFLOW.md
-```
+├── Scripts/                 # Contains Python scripts
+│   ├── file_renamer.py
+│   └── image_compressor.py
+├── .gitignore               # Files to ignore in Git
+├── CONTRIBUTING.md          # Contribution guidelines
+├── LICENSE                  # MIT License file
+├── README.md                # This file
+└── WORKFLOW.md              # Git and GitHub workflow guide
 
+## ✨Contributors
+Thanks to these wonderful people for thier contributions!
+- **Milan** - [Github](https://github.com/milansinghal2004)
 
-## 📜 License
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-This project is licensed under the MIT License. See the **[LICENSE](LICENSE)** file for details.
-*(Note: You should create a `LICENSE` file in your repository. The MIT License is a great choice for open-source projects.)*
+## Contact
+For questions or support, open an issue and tag the maintainer **@milansinghal2004**.
 
-## 📫 Contact
-
-If you have questions or need help, feel free to open an issue and tag the maintainer **@milansinghal2004**.
