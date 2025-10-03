@@ -28,6 +28,8 @@ The repository currently contains the following scripts:
 - `Bulk Image Resizer` - Resize all images to a fixed width.
 - `CSV to Excel Converter` - Convert all CSV files in a folder to Excel.
 - `Emotion Detection` - Detect emotions from webcam feed using deep learning.
+- `Object Detection` - Detects Objects from webcam feed using AI/ML.
+  
 This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 
 ## Getting Started
@@ -107,6 +109,18 @@ in terminal.
 python Scripts/Emotion_Detection/EmotionDetection.py
 ```
 in terminal
+
+6. Object Detection
+- make sure you are running it on Python 3.9 or above
+- make sure you have tkinter, opencv-python, numpy, Pillow. You can install them using:
+- ```bash
+  pip install tkinter opencv-python numpy Pillow
+  ```
+- make sure you download YOLOV3.weights file, check readme file in ` /scripts/Object-Detection-System/ `.
+- run the script using:
+  ```bash
+  python Scripts/Object-Detection-System/main.py
+  ```
 
 ## Contributing
 
@@ -206,6 +220,13 @@ If the linter finds any critical errors, the workflow will fail. A "pass" or "fa
             <img src=https://avatars.githubusercontent.com/u/223218288?s=400&v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Anshul-Bartwal/>
             <br />
             <sub style="font-size:14px"><b>Anshul Bartwal</b></sub>
+        </a>
+    </td>
+   <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Vedansh-Rawat>
+            <img src=https://avatars.githubusercontent.com/u/207315559?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Anshul-Bartwal/>
+            <br />
+            <sub style="font-size:14px"><b>Vedansh Rawat</b></sub>
         </a>
     </td>
 </tr>
