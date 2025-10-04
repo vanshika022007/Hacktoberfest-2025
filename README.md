@@ -30,6 +30,7 @@ The repository currently contains the following scripts:
 - `To Do List` - A simple Python-based To-Do List Manager to add, view, and remove tasks directly from the terminal.
 - `Emotion Detection` - Detect emotions from webcam feed using deep learning.
 - `Object Detection` - Detects Objects from webcam feed using AI/ML.
+- `TicTacToe` - In this game the player has to play through the 3X3 grid on 3X3 where firt player will play the turn and subsequently the secong player moves would be restricted in that child board 
   
 This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 
@@ -189,40 +190,10 @@ If the linter finds any critical errors, the workflow will fail. A "pass" or "fa
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Vedansh-Rawat>
-            <img src=https://avatars.githubusercontent.com/u/207315559?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Vedansh/>
-            <br />
-            <sub style="font-size:14px"><b>Vedansh</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/devanshsonii>
             <img src=https://avatars.githubusercontent.com/u/139559687?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=runn3r/>
             <br />
             <sub style="font-size:14px"><b>runn3r</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Spartan1-1-7>
-            <img src=https://avatars.githubusercontent.com/u/121613262?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Arindam Shukla/>
-            <br />
-            <sub style="font-size:14px"><b>Arindam Shukla</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/Anshul-Bartwal>
-            <img src=https://avatars.githubusercontent.com/u/223218288?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Anshul-Bartwal/>
-            <br />
-            <sub style="font-size:14px"><b>Anshul-Bartwal</b></sub>
-        </a>
-    </td>
-</tr>
-<tr>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/ArnavP2305>
-            <img src=https://avatars.githubusercontent.com/u/153117709?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=ArnavP2305/>
-            <br />
-            <sub style="font-size:14px"><b>ArnavP2305</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
