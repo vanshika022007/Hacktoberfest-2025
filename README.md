@@ -13,8 +13,7 @@ This repository contains Python scripts designed to automate common tasks. It is
 4. [Contributing](#contributing)
 5. [Project Structure](#project-structure)
 6. [Contributors](#contributors)
-7. [License](#license)
-8. [Contact](#contact)
+7. [Contact](#contact)
 
 ## About
 
@@ -24,12 +23,15 @@ The repository currently contains the following scripts:
 - `image_compressor.py` — Compress images individually or in bulk using Pillow.
 - `factorial_calculator.py` — Calculate the factorial of a non-negative integer.
 - `password_generator.py` — Generate strong, random passwords with customizable criteria.
-  This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 - `Folder Cleaner`- Delete files older than n days.
 - `PDF Merger` - Merge multiple PDFs into one.
 - `Bulk Image Resizer` - Resize all images to a fixed width.
 - `CSV to Excel Converter` - Convert all CSV files in a folder to Excel.
 - `To Do List` - A simple Python-based To-Do List Manager to add, view, and remove tasks directly from the terminal.
+- `Emotion Detection` - Detect emotions from webcam feed using deep learning.
+- `Object Detection` - Detects Objects from webcam feed using AI/ML.
+  
+This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 
 ## Getting Started
 
@@ -96,6 +98,31 @@ print(f"Generated password: {generate_password(length=16, use_symbols=False)}")
 
 Both scripts include detailed docstrings and inline comments to guide usage.
 
+5. Emotion Detection
+- make sure you are running it on Python 3.9 or above till 3.11.5
+- make sure you have keras, tensorflow, opencv-python, numpy installed. You can install them using:
+```bash
+pip install keras tensorflow opencv-python numpy
+```
+in terminal.
+- run the script using:
+```bash
+python Scripts/Emotion_Detection/EmotionDetection.py
+```
+in terminal
+
+6. Object Detection
+- make sure you are running it on Python 3.9 or above
+- make sure you have tkinter, opencv-python, numpy, Pillow. You can install them using:
+- ```bash
+  pip install tkinter opencv-python numpy Pillow
+  ```
+- make sure you download YOLOV3.weights file, check readme file in ` /scripts/Object-Detection-System/ `.
+- run the script using:
+  ```bash
+  python Scripts/Object-Detection-System/main.py
+  ```
+
 ## Contributing
 
 We welcome contributions of all kinds from improving documentation to adding new scripts.
@@ -131,7 +158,7 @@ We have a workflow that automatically runs the `flake8` linter on every pull req
 If the linter finds any critical errors, the workflow will fail. A "pass" or "fail" status will be reported on the pull request page. All checks must pass before a pull request can be merged. This ensures that all contributions adhere to our project's coding standards.
 
 ## Project Structure
-
+```
 .
 ├── Scripts/ # Contains Python scripts
 │ ├── file_renamer.py
@@ -141,8 +168,9 @@ If the linter finds any critical errors, the workflow will fail. A "pass" or "fa
 ├── LICENSE # MIT License file
 ├── README.md # This file
 └── WORKFLOW.md # Git and GitHub workflow guide
+```
 
-## ✨ Contributors
+## Contributors
 
 <table>
 <tr>
@@ -161,10 +189,40 @@ If the linter finds any critical errors, the workflow will fail. A "pass" or "fa
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Vedansh-Rawat>
+            <img src=https://avatars.githubusercontent.com/u/207315559?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Vedansh/>
+            <br />
+            <sub style="font-size:14px"><b>Vedansh</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/devanshsonii>
             <img src=https://avatars.githubusercontent.com/u/139559687?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=runn3r/>
             <br />
             <sub style="font-size:14px"><b>runn3r</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Spartan1-1-7>
+            <img src=https://avatars.githubusercontent.com/u/121613262?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Arindam Shukla/>
+            <br />
+            <sub style="font-size:14px"><b>Arindam Shukla</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Anshul-Bartwal>
+            <img src=https://avatars.githubusercontent.com/u/223218288?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Anshul-Bartwal/>
+            <br />
+            <sub style="font-size:14px"><b>Anshul-Bartwal</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ArnavP2305>
+            <img src=https://avatars.githubusercontent.com/u/153117709?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=ArnavP2305/>
+            <br />
+            <sub style="font-size:14px"><b>ArnavP2305</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
