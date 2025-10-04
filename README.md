@@ -200,6 +200,13 @@ If the linter finds any critical errors, the workflow will fail. A "pass" or "fa
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ArnavP2305>
+            <img src=https://avatars.githubusercontent.com/u/153117709?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Arnav Parmar/>
+            <br />
+            <sub style="font-size:14px"><b>Arnav Parmar</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/devanshsonii>
             <img src=https://avatars.githubusercontent.com/u/139559687?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=runn3r/>
             <br />
@@ -213,20 +220,13 @@ If the linter finds any critical errors, the workflow will fail. A "pass" or "fa
             <sub style="font-size:14px"><b>Arindam Shukla</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Anshul-Bartwal>
             <img src=https://avatars.githubusercontent.com/u/223218288?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Anshul-Bartwal/>
             <br />
             <sub style="font-size:14px"><b>Anshul-Bartwal</b></sub>
-        </a>
-    </td>
-</tr>
-<tr>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/ArnavP2305>
-            <img src=https://avatars.githubusercontent.com/u/153117709?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=ArnavP2305/>
-            <br />
-            <sub style="font-size:14px"><b>ArnavP2305</b></sub>
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
