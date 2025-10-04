@@ -29,6 +29,7 @@ The repository currently contains the following scripts:
 - `PDF Merger` - Merge multiple PDFs into one.
 - `Bulk Image Resizer` - Resize all images to a fixed width.
 - `CSV to Excel Converter` - Convert all CSV files in a folder to Excel.
+- `To Do List` - A simple Python-based To-Do List Manager to add, view, and remove tasks directly from the terminal.
 
 ## Getting Started
 
