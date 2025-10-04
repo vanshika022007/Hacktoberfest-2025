@@ -33,6 +33,7 @@ The repository currently contains the following scripts:
 - `TicTacToe` - In this game the player has to play through the 3X3 grid on 3X3 where firt player will play the turn and subsequently the secong player moves would be restricted in that child board.
 - `Wordle Game` - A Python implementation of Wordle where you guess a 5-letter word in 6 attempts with feedback for correct letters and positions.
 - `Email Sender` - Send emails to multiple recipients with optional attachments, including logging and error handling.
+- `Library Management System` - A Python program to manage books, track borrowing/returning, and store data persistently.
   
 This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 
@@ -229,6 +230,13 @@ If the linter finds any critical errors, the workflow will fail. A "pass" or "fa
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/jalaj-25>
+            <img src=https://avatars.githubusercontent.com/u/115914764?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Jalaj Singhal/>
+            <br />
+            <sub style="font-size:14px"><b>Jalaj Singhal</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/992manav>
             <img src=https://avatars.githubusercontent.com/u/170462638?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Manav Desai/>
             <br />
@@ -240,13 +248,6 @@ If the linter finds any critical errors, the workflow will fail. A "pass" or "fa
             <img src=https://avatars.githubusercontent.com/u/138115920?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=csr76/>
             <br />
             <sub style="font-size:14px"><b>csr76</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/jalaj-25>
-            <img src=https://avatars.githubusercontent.com/u/115914764?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Jalaj Singhal/>
-            <br />
-            <sub style="font-size:14px"><b>Jalaj Singhal</b></sub>
         </a>
     </td>
 </tr>
