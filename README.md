@@ -33,6 +33,7 @@ The repository currently contains the following scripts:
 - `TicTacToe` - In this game the player has to play through the 3X3 grid on 3X3 where firt player will play the turn and subsequently the secong player moves would be restricted in that child board.
 - `Wordle Game` - A Python implementation of Wordle where you guess a 5-letter word in 6 attempts with feedback for correct letters and positions.
 - `Email Sender` - Send emails to multiple recipients with optional attachments, including logging and error handling.
+- `Library Management System` - A Python program to manage books, track borrowing/returning, and store data persistently.
   
 This collection aims to help users automate repetitive tasks efficiently and serve as an introduction to Python scripting and open-source contributions.
 
