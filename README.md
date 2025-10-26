@@ -242,17 +242,17 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
-        <a href=https://github.com/devanshsonii>
-            <img src=https://avatars.githubusercontent.com/u/139559687?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=runn3r/>
-            <br />
-            <sub style="font-size:14px"><b>runn3r</b></sub>
-        </a>
-    </td>
-    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Spartan1-1-7>
             <img src=https://avatars.githubusercontent.com/u/121613262?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Arindam Shukla/>
             <br />
             <sub style="font-size:14px"><b>Arindam Shukla</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/devanshsonii>
+            <img src=https://avatars.githubusercontent.com/u/139559687?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=runn3r/>
+            <br />
+            <sub style="font-size:14px"><b>runn3r</b></sub>
         </a>
     </td>
 </tr>
@@ -313,6 +313,13 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
             <img src=https://avatars.githubusercontent.com/u/221009406?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Kodurikeerthana07/>
             <br />
             <sub style="font-size:14px"><b>Kodurikeerthana07</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Sahithi-0506>
+            <img src=https://avatars.githubusercontent.com/u/218389979?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Sahithi Achyutha Ishwarya Kalla/>
+            <br />
+            <sub style="font-size:14px"><b>Sahithi Achyutha Ishwarya Kalla</b></sub>
         </a>
     </td>
 </tr>
