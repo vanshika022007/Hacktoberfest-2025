@@ -1,13 +1,12 @@
 import os
 import shutil
-import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from file_organizer import organize_files
+from scripts.file_organizer import organize_files
 
-TEST_DIR = 'test_folder'
-TXT_FILE = 'test.txt'
-PNG_FILE = 'test.png'
-NOEXT_FILE = 'noextfile'
+
+TEST_DIR = "test_folder"
+TXT_FILE = "test.txt"
+PNG_FILE = "test.png"
+NOEXT_FILE = "noextfile"
 
 
 def setup_module():
@@ -15,9 +14,9 @@ def setup_module():
     Create a directory with test files automagically before testing
     """
     os.makedirs(TEST_DIR, exist_ok=True)
-    open(os.path.join(TEST_DIR, TXT_FILE), 'w').close()
-    open(os.path.join(TEST_DIR, PNG_FILE), 'w').close()
-    open(os.path.join(TEST_DIR, NOEXT_FILE), 'w').close()
+    open(os.path.join(TEST_DIR, TXT_FILE), "w").close()
+    open(os.path.join(TEST_DIR, PNG_FILE), "w").close()
+    open(os.path.join(TEST_DIR, NOEXT_FILE), "w").close()
 
 
 def teardown_module():
@@ -29,22 +28,23 @@ def teardown_module():
 
 
 def test_create_folder():
-    # Interestingly, if organize_files is not called, the folders are not created (setup_module is not called)
+    # Interestingly, if organize_files is not called,
+    # the folders are not created (setup_module is not called)
     organize_files(TEST_DIR, log_activity=False)
 
     # Check if the folders were created
-    assert os.path.isdir(os.path.join(TEST_DIR, 'txt'))
-    assert os.path.isdir(os.path.join(TEST_DIR, 'png'))
-    assert os.path.isdir(os.path.join(TEST_DIR, 'no_extension'))
+    assert os.path.isdir(os.path.join(TEST_DIR, "txt"))
+    assert os.path.isdir(os.path.join(TEST_DIR, "png"))
+    assert os.path.isdir(os.path.join(TEST_DIR, "no_extension"))
 
 
 def test_organize_files():
     organize_files(TEST_DIR, log_activity=False)
 
     # Check if files were MOVED to their respective folders
-    assert os.path.exists(os.path.join(TEST_DIR, 'txt', TXT_FILE))
-    assert os.path.exists(os.path.join(TEST_DIR, 'png', PNG_FILE))
-    assert os.path.exists(os.path.join(TEST_DIR, 'no_extension', NOEXT_FILE))
+    assert os.path.exists(os.path.join(TEST_DIR, "txt", TXT_FILE))
+    assert os.path.exists(os.path.join(TEST_DIR, "png", PNG_FILE))
+    assert os.path.exists(os.path.join(TEST_DIR, "no_extension", NOEXT_FILE))
 
     # Check if original files were DELETED
     assert not os.path.exists(os.path.join(TEST_DIR, TXT_FILE))
@@ -63,7 +63,7 @@ def test_log_activity(tmpdir):
     assert os.path.exists(log_path)
 
     # Check if the log file contains the expected content
-    with open(log_path, 'r') as f:
+    with open(log_path, "r") as f:
         content = f.read()
         assert "Moved: test_file.txt" in content
 
@@ -79,20 +79,20 @@ def test_logfile_does_not_exist(tmpdir):
 
 
 def test_organize_files_nonexistent_folder(capfd):
-    organize_files('/invalid/path', log_activity=False)
+    organize_files("/invalid/path", log_activity=False)
 
     # Standard output
     captured = capfd.readouterr()
 
-    assert '❌ The specified folder does not exist.' in captured.out
+    assert "❌ The specified folder does not exist." in captured.out
 
 
 def test_organize_files_skips_directories(tmp_path):
-    temp_folder_path = tmp_path / 'test_folder'
+    temp_folder_path = tmp_path / "test_folder"
     temp_folder_path.mkdir()
 
     # Create a subfolder
-    subfolder_path = temp_folder_path / 'subfolder'
+    subfolder_path = temp_folder_path / "subfolder"
     subfolder_path.mkdir()
 
     # Check if the subfolder is created
@@ -105,7 +105,7 @@ def test_organize_files_skips_directories(tmp_path):
     assert subfolder_path.exists()
     assert subfolder_path.is_dir()
 
-    assert os.path.exists(os.path.join(temp_folder_path, 'subfolder'))
+    assert os.path.exists(os.path.join(temp_folder_path, "subfolder"))
 
 
 def test_organize_files_outputs_summary(capfd, tmpdir):
