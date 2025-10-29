@@ -258,6 +258,13 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
 </tr>
 <tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/komalharshita>
+            <img src=https://avatars.githubusercontent.com/u/196676888?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Komal Harshita/>
+            <br />
+            <sub style="font-size:14px"><b>Komal Harshita</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/jalaj-25>
             <img src=https://avatars.githubusercontent.com/u/115914764?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Jalaj Singhal/>
             <br />
@@ -292,6 +299,8 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
             <sub style="font-size:14px"><b>Abinesh B</b></sub>
         </a>
     </td>
+</tr>
+<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/csr76>
             <img src=https://avatars.githubusercontent.com/u/138115920?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=csr76/>
@@ -299,8 +308,6 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
             <sub style="font-size:14px"><b>csr76</b></sub>
         </a>
     </td>
-</tr>
-<tr>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Jay-1409>
             <img src=https://avatars.githubusercontent.com/u/166749819?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Jay shah/>
