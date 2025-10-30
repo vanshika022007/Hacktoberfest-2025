@@ -316,6 +316,13 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
         </a>
     </td>
     <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/ADITHYA-37>
+            <img src=https://avatars.githubusercontent.com/u/219693993?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=ADITHYA-37/>
+            <br />
+            <sub style="font-size:14px"><b>ADITHYA-37</b></sub>
+        </a>
+    </td>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
         <a href=https://github.com/Harshrathore994>
             <img src=https://avatars.githubusercontent.com/u/91665121?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Harsh Rathore/>
             <br />
@@ -334,6 +341,15 @@ flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statisti
             <img src=https://avatars.githubusercontent.com/u/218389979?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Sahithi Achyutha Ishwarya Kalla/>
             <br />
             <sub style="font-size:14px"><b>Sahithi Achyutha Ishwarya Kalla</b></sub>
+        </a>
+    </td>
+</tr>
+<tr>
+    <td align="center" style="word-wrap: break-word; width: 150.0; height: 150.0">
+        <a href=https://github.com/Sukarth>
+            <img src=https://avatars.githubusercontent.com/u/67836153?v=4 width="100;"  style="border-radius:50%;align-items:center;justify-content:center;overflow:hidden;padding-top:10px" alt=Sukarth/>
+            <br />
+            <sub style="font-size:14px"><b>Sukarth</b></sub>
         </a>
     </td>
 </tr>
